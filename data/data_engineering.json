@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "title": "Core Data Engineering Concepts",
+    "words": [
+      "PYTHON",
+      "PIPELINE",
+      "DATABASE",
+      "WAREHOUSE",
+      "SCHEMA",
+      "TABLE",
+      "QUERY",
+      "ETL",
+      "BATCH",
+      "STREAM",
+      "AIRFLOW",
+      "DOCKER",
+      "CLOUD",
+      "LINUX",
+      "GIT"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Databases and Warehouses",
+    "words": [
+      "POSTGRES",
+      "MYSQL",
+      "ORACLE",
+      "MONGODB",
+      "REDSHIFT",
+      "BIGQUERY",
+      "SNOWFLAKE",
+      "DATABRICKS",
+      "SQLSERVER",
+      "DATABASE",
+      "INDEX",
+      "VIEW",
+      "COLUMN",
+      "ROW",
+      "PRIMARYKEY"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Python and Analytics Libraries",
+    "words": [
+      "PANDAS",
+      "NUMPY",
+      "POLARS",
+      "PYARROW",
+      "JUPYTER",
+      "SCRIPT",
+      "MODULE",
+      "PACKAGE",
+      "FUNCTION",
+      "OBJECT",
+      "METHOD",
+      "VARIABLE",
+      "IMPORT",
+      "LOOP",
+      "CLASS"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Cloud Computing Platforms",
+    "words": [
+      "AZURE",
+      "AWS",
+      "GCP",
+      "COMPUTE",
+      "STORAGE",
+      "NETWORK",
+      "SERVER",
+      "INSTANCE",
+      "BUCKET",
+      "CONTAINER",
+      "FUNCTION",
+      "LAMBDA",
+      "CLOUDRUN",
+      "VMWARE",
+      "KUBERNETES"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Data Formats and Storage",
+    "words": [
+      "PARQUET",
+      "AVRO",
+      "JSON",
+      "CSV",
+      "XML",
+      "DELTA",
+      "ICEBERG",
+      "FORMAT",
+      "PARTITION",
+      "COMPRESS",
+      "SERIALIZE",
+      "RECORD",
+      "FIELD",
+      "ENCODE",
+      "DECODE"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "DevOps and Deployment",
+    "words": [
+      "TERRAFORM",
+      "ANSIBLE",
+      "DOCKER",
+      "PODMAN",
+      "JENKINS",
+      "GITHUB",
+      "BITBUCKET",
+      "DEPLOY",
+      "BUILD",
+      "RELEASE",
+      "VERSION",
+      "MERGE",
+      "COMMIT",
+      "BRANCH",
+      "PULLREQUEST"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Data Quality and Governance",
+    "words": [
+      "QUALITY",
+      "VALIDATION",
+      "PROFILE",
+      "DUPLICATE",
+      "MISSING",
+      "ANOMALY",
+      "CHECKSUM",
+      "METADATA",
+      "MONITOR",
+      "AUDIT",
+      "ERROR",
+      "WARNING",
+      "THRESHOLD",
+      "CONTROL",
+      "RULE"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Workflow Orchestration",
+    "words": [
+      "AIRFLOW",
+      "DAGSTER",
+      "PREFECT",
+      "SCHEDULE",
+      "TRIGGER",
+      "WORKFLOW",
+      "TASK",
+      "RETRY",
+      "DEPENDENCY",
+      "EXECUTION",
+      "OPERATOR",
+      "SENSOR",
+      "QUEUE",
+      "RUNNER",
+      "ORCHESTRATE"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Data Modelling",
+    "words": [
+      "STAR",
+      "SNOWFLAKE",
+      "DIMENSION",
+      "FACT",
+      "SURROGATE",
+      "NATURALKEY",
+      "ATTRIBUTE",
+      "MEASURE",
+      "HIERARCHY",
+      "MODEL",
+      "ENTITY",
+      "RELATION",
+      "MART",
+      "WAREHOUSE",
+      "NORMALIZE"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Streaming and Event Processing",
+    "words": [
+      "STREAM",
+      "KAFKA",
+      "SPARK",
+      "FLINK",
+      "EVENT",
+      "TOPIC",
+      "BROKER",
+      "CONSUMER",
+      "PRODUCER",
+      "OFFSET",
+      "WINDOW",
+      "LATENCY",
+      "THROUGHPUT",
+      "REALTIME",
+      "CHECKPOINT"
+    ]
+  }
+]
