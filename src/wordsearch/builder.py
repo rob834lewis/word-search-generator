@@ -10,6 +10,7 @@ from src.wordsearch.pdf_export import (
     export_book_pdf,
 )
 
+from src.wordsearch.validation import validate_puzzles
 
 def load_puzzles(path):
     with open(path, "r", encoding="utf-8") as file:
@@ -42,6 +43,8 @@ def build_puzzles(puzzle_data):
 
 if __name__ == "__main__":
     puzzle_data = load_puzzles("data/data_engineering.json")
+
+    validate_puzzles(puzzle_data)
 
     built_puzzles = build_puzzles(puzzle_data)
 

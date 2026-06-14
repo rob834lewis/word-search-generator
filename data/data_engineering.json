@@ -13,8 +13,8 @@
       "ETL",
       "BATCH",
       "STREAM",
-      "AIRFLOW",
-      "DOCKER",
+      "ORCHESTRATION",
+      "CONTAINER",
       "CLOUD",
       "LINUX",
       "GIT"
@@ -33,7 +33,7 @@
       "SNOWFLAKE",
       "DATABRICKS",
       "SQLSERVER",
-      "DATABASE",
+      "TERADATA",
       "INDEX",
       "VIEW",
       "COLUMN",
@@ -75,8 +75,8 @@
       "SERVER",
       "INSTANCE",
       "BUCKET",
-      "CONTAINER",
-      "FUNCTION",
+      "IAAS",
+      "FABRIC",
       "LAMBDA",
       "CLOUDRUN",
       "VMWARE",
@@ -172,7 +172,7 @@
     "title": "Data Modelling",
     "words": [
       "STAR",
-      "SNOWFLAKE",
+      "UNIQUEKEY",
       "DIMENSION",
       "FACT",
       "SURROGATE",
@@ -184,7 +184,7 @@
       "ENTITY",
       "RELATION",
       "MART",
-      "WAREHOUSE",
+      "LAKEHOUSE",
       "NORMALIZE"
     ]
   },
@@ -192,7 +192,7 @@
     "id": 10,
     "title": "Streaming and Event Processing",
     "words": [
-      "STREAM",
+      "MESSAGES",
       "KAFKA",
       "SPARK",
       "FLINK",
@@ -207,6 +207,321 @@
       "THROUGHPUT",
       "REALTIME",
       "CHECKPOINT"
+    ]
+  },
+   {
+    "id": 11,
+    "title": "SQL and Query Logic",
+    "words": [
+      "SELECT",
+      "INSERT",
+      "UPDATE",
+      "DELETE",
+      "WHERE",
+      "JOIN",
+      "GROUPBY",
+      "ORDERBY",
+      "HAVING",
+      "UNION",
+      "SUBQUERY",
+      "CTE",
+      "FILTER",
+      "SORT",
+      "AGGREGATE"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Big Data Processing",
+    "words": [
+      "HADOOP",
+      "HIVE",
+      "PIG",
+      "MAPREDUCE",
+      "CLUSTER",
+      "EXECUTOR",
+      "DRIVER",
+      "SHUFFLE",
+      "RDD",
+      "DATAFRAME",
+      "WORKER",
+      "NODE",
+      "MEMORY",
+      "CORES",
+      "DISTRIBUTE"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Data Lakes",
+    "words": [
+      "RAWZONE",
+      "BRONZE",
+      "SILVER",
+      "GOLD",
+      "INGEST",
+      "CURATED",
+      "LANDING",
+      "CATALOG",
+      "LINEAGE",
+      "RETENTION",
+      "ARCHIVE",
+      "BLOB",
+      "OBJECTSTORE",
+      "FOLDER",
+      "PATH"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Analytics Engineering",
+    "words": [
+      "DBT",
+      "SEED",
+      "SOURCE",
+      "SNAPSHOT",
+      "MACRO",
+      "TEST",
+      "REF",
+      "YAML",
+      "STAGING",
+      "TRANSFORM",
+      "MATERIALIZE",
+      "EXPOSURE",
+      "DOCUMENT",
+      "SEMANTIC",
+      "METRIC"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "APIs and Data Exchange",
+    "words": [
+      "API",
+      "REST",
+      "GRAPHQL",
+      "ENDPOINT",
+      "REQUEST",
+      "RESPONSE",
+      "PAYLOAD",
+      "HEADER",
+      "TOKEN",
+      "AUTH",
+      "PAGINATION",
+      "WEBHOOK",
+      "RATELIMIT",
+      "CLIENT",
+      "SERVERLESS"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Security and Access",
+    "words": [
+      "ENCRYPTION",
+      "IAM",
+      "ROLE",
+      "POLICY",
+      "SECRET",
+      "KEYVAULT",
+      "FIREWALL",
+      "PRIVATEKEY",
+      "PUBLICKEY",
+      "CERTIFICATE",
+      "TOKENIZE",
+      "MASKING",
+      "REDACTION",
+      "PERMISSION",
+      "PRINCIPAL"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Monitoring and Logging",
+    "words": [
+      "LOGGING",
+      "TRACE",
+      "ALERT",
+      "METRICSTORE",
+      "DASHBOARD",
+      "OBSERVE",
+      "UPTIME",
+      "FAILURE",
+      "INCIDENT",
+      "SLA",
+      "HEALTHCHECK",
+      "TELEMETRY",
+      "WATCHDOG",
+      "STATUS",
+      "SIGNAL"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Testing Data Pipelines",
+    "words": [
+      "UNITTEST",
+      "PYTEST",
+      "FIXTURE",
+      "MOCK",
+      "ASSERT",
+      "EXPECTED",
+      "ACTUAL",
+      "REGRESSION",
+      "SMOKETEST",
+      "INTEGRATION",
+      "COVERAGE",
+      "SCENARIO",
+      "BASELINE",
+      "COMPARE",
+      "RESULT"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Batch Processing",
+    "words": [
+      "JOB",
+      "SCHEDULER",
+      "CRON",
+      "BACKFILL",
+      "RERUN",
+      "LOAD",
+      "EXTRACT",
+      "SOURCEFILE",
+      "TARGET",
+      "STAGINGAREA",
+      "INCREMENTAL",
+      "FULLLOAD",
+      "WATERMARK",
+      "CUTOVER",
+      "RUNBOOK"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Data Architecture",
+    "words": [
+      "MEDALLION",
+      "HUB",
+      "SPOKE",
+      "DOMAIN",
+      "MESH",
+      "BUS",
+      "VAULT",
+      "SATELLITE",
+      "LINK",
+      "HISTORY",
+      "BLUEPRINT",
+      "LAYER",
+      "PLATFORM",
+      "SERVICE",
+      "CAPABILITY"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Cloud Data Services",
+    "words": [
+      "ATHENA",
+      "GLUE",
+      "EMR",
+      "SYNAPSE",
+      "DATAFLOW",
+      "PUBSUB",
+      "KINESIS",
+      "FIREHOSE",
+      "EVENTHUB",
+      "COSMOSDB",
+      "DYNAMODB",
+      "BIGTABLE",
+      "SPANNER",
+      "DATAPROC",
+      "DATAFORM"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Performance Tuning",
+    "words": [
+      "OPTIMIZE",
+      "CACHE",
+      "PRUNING",
+      "CLUSTERING",
+      "STATISTICS",
+      "VACUUM",
+      "EXPLAIN",
+      "PLAN",
+      "SCAN",
+      "SEEK",
+      "HASHJOIN",
+      "BROADCAST",
+      "PARALLEL",
+      "BOTTLENECK",
+      "COST"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "File Handling",
+    "words": [
+      "FILENAME",
+      "DIRECTORY",
+      "EXTENSION",
+      "DELIMITER",
+      "ENCODING",
+      "SCHEMAFILE",
+      "MANIFEST",
+      "CHUNK",
+      "SPLIT",
+      "MERGEFILE",
+      "UPLOAD",
+      "DOWNLOAD",
+      "ARCHIVING",
+      "ROTATION",
+      "LOCKFILE"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Business Intelligence",
+    "words": [
+      "REPORT",
+      "CHART",
+      "VISUAL",
+      "TABLEAU",
+      "POWERBI",
+      "LOOKER",
+      "FILTERING",
+      "DRILLDOWN",
+      "KPI",
+      "MEASURED",
+      "SUMMARY",
+      "EXPORT",
+      "REFRESH",
+      "PUBLISH",
+      "INSIGHT"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Data Careers",
+    "words": [
+      "ANALYST",
+      "ENGINEER",
+      "ARCHITECT",
+      "DEVELOPER",
+      "SCIENTIST",
+      "CONSULTANT",
+      "SPECIALIST",
+      "APPRENTICE",
+      "MENTOR",
+      "PORTFOLIO",
+      "INTERVIEW",
+      "RESUME",
+      "PROJECT",
+      "SKILL",
+      "LEARNING"
     ]
   }
 ]

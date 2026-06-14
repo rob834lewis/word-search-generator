@@ -19,21 +19,21 @@ def draw_word_oval(c, start_x, start_y, cell_size, placement):
     dx = x2 - x1
     dy = y2 - y1
 
-    word_length = math.sqrt(dx**2 + dy**2) + cell_size
-    oval_height = cell_size * 0.9
-
     angle = math.degrees(math.atan2(dy, dx))
 
-    c.saveState()
+    word_length = len(placement["word"]) * cell_size
+    oval_height = cell_size * 1.25
 
+    c.saveState()
     c.translate(mid_x, mid_y)
     c.rotate(angle)
 
-    c.ellipse(
+    c.roundRect(
         -word_length / 2,
         -oval_height / 2,
-        word_length / 2,
-        oval_height / 2,
+        word_length,
+        oval_height,
+        radius=oval_height / 2,
         stroke=1,
         fill=0,
     )
@@ -44,7 +44,7 @@ def draw_word_oval(c, start_x, start_y, cell_size, placement):
 def draw_page_number(c, page_number):
     page_width, _ = LETTER
 
-    c.setFont("Helvetica", 9)
+    c.setFont("Helvetica", 12)
     c.drawRightString(page_width - 45, 18, str(page_number))
 
 
