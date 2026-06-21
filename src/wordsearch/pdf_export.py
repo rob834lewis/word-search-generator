@@ -254,7 +254,7 @@ def draw_solution_pages(c, puzzles, start_page_number):
         position_index = puzzle_index % 4
 
         if puzzle_index > 0 and position_index == 0:
-            draw_page_number(c, page_number)
+            draw_page_number(c, page_number, font_size=9)
             c.showPage()
             page_number += 1
 
@@ -570,6 +570,6 @@ def export_book_pdf(puzzles, output_path):
 
     about_author_page = c.getPageNumber()
     draw_about_author_page(c)
-    draw_page_number(c, about_author_page)
+    draw_page_number(c, about_author_page,font_size=9)
 
     c.save()
