@@ -27,7 +27,9 @@ def build_single_puzzle(puzzle, max_grid_attempts=50):
             return {
                 "id": puzzle["id"],
                 "title": puzzle["title"],
+                "description": puzzle["description"],
                 "words": puzzle["words"],
+                "trivia": puzzle["trivia"],
                 "grid": grid,
                 "placements": placements,
             }

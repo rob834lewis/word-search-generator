@@ -2,6 +2,7 @@
   {
     "id": 1,
     "title": "Core Data Engineering Concepts",
+    "description": "Data engineering focuses on building reliable pipelines that move, transform and prepare data for analysis.",
     "words": [
       "PYTHON",
       "PIPELINE",
@@ -18,11 +19,13 @@
       "CLOUD",
       "LINUX",
       "GIT"
-    ]
+    ],
+    "trivia": "Around 90% of the world's data has been created within the last few years, driven by smartphones, sensors, social media and online services."
   },
   {
     "id": 2,
     "title": "Databases and Warehouses",
+    "description": "Databases are used to store structured data, while data warehouses are optimized for analytical queries and reporting.",
     "words": [
       "POSTGRES",
       "MYSQL",
@@ -39,11 +42,13 @@
       "COLUMN",
       "ROW",
       "PRIMARYKEY"
-    ]
+    ],
+    "trivia": "The first version of Oracle was released in 1979. It was one of the first commercial relational database management systems."
   },
   {
     "id": 3,
     "title": "Python and Analytics Libraries",
+    "description": "Python is widely used in data engineering for its simplicity and rich ecosystem of libraries.",
     "words": [
       "PANDAS",
       "NUMPY",
@@ -60,11 +65,13 @@
       "IMPORT",
       "LOOP",
       "CLASS"
-    ]
+    ],
+    "trivia": "Python was named after Monty Python's Flying Circus, not the snake."
   },
   {
     "id": 4,
     "title": "Cloud Computing Platforms",
+    "description": "Cloud computing platforms provide scalable and on-demand computing resources over the internet.",
     "words": [
       "AZURE",
       "AWS",
@@ -81,11 +88,13 @@
       "CLOUDRUN",
       "VMWARE",
       "KUBERNETES"
-    ]
+    ],
+    "trivia": "Amazon Web Services launched in 2006 with just a handful of services."
   },
   {
     "id": 5,
     "title": "Data Formats and Storage",
+    "description": "Data can be stored in various formats, each with its own advantages for storage efficiency and query performance.",
     "words": [
       "PARQUET",
       "AVRO",
@@ -102,11 +111,13 @@
       "FIELD",
       "ENCODE",
       "DECODE"
-    ]
+    ],
+    "trivia": "A Parquet file can often be significantly smaller than the same data stored as CSV."
   },
   {
     "id": 6,
     "title": "DevOps and Deployment",
+    "description": "DevOps practices aim to streamline the software development and deployment process through automation and collaboration.",
     "words": [
       "TERRAFORM",
       "ANSIBLE",
@@ -123,11 +134,13 @@
       "COMMIT",
       "BRANCH",
       "PULLREQUEST"
-    ]
+    ],
+    "trivia": "The term 'DevOps' was popularised in 2009 by Patrick Debois."
   },
   {
     "id": 7,
     "title": "Data Quality and Governance",
+    "description": "Data quality and governance ensure that data is accurate, consistent, and compliant with organizational policies.",
     "words": [
       "QUALITY",
       "VALIDATION",
@@ -144,11 +157,13 @@
       "THRESHOLD",
       "CONTROL",
       "RULE"
-    ]
+    ],
+    "trivia": "Bad data quality costs businesses billions of dollars every year."
   },
   {
     "id": 8,
     "title": "Workflow Orchestration",
+    "description": "Workflow orchestration involves managing and automating complex workflows across multiple systems and services.",
     "words": [
       "AIRFLOW",
       "DAGSTER",
@@ -165,11 +180,13 @@
       "QUEUE",
       "RUNNER",
       "ORCHESTRATE"
-    ]
+    ],
+    "trivia": "Apache Airflow was originally developed at Airbnb."
   },
   {
     "id": 9,
     "title": "Data Modelling",
+    "description": "Data modelling is the process of creating a conceptual representation of data and its relationships.",
     "words": [
       "STAR",
       "UNIQUEKEY",
@@ -186,11 +203,13 @@
       "MART",
       "LAKEHOUSE",
       "NORMALIZE"
-    ]
+    ],
+    "trivia": "Ralph Kimball and Bill Inmon helped define many modern data warehousing practices."
   },
   {
     "id": 10,
     "title": "Streaming and Event Processing",
+    "description": "Streaming and event processing involve handling and analyzing data in real-time as it is generated.",
     "words": [
       "MESSAGES",
       "KAFKA",
@@ -207,11 +226,13 @@
       "THROUGHPUT",
       "REALTIME",
       "CHECKPOINT"
-    ]
+    ],
+    "trivia": "Apache Kafka was originally developed at LinkedIn and later became an open-source project."
   },
    {
     "id": 11,
     "title": "SQL and Query Logic",
+    "description": "SQL (Structured Query Language) is used to manage and manipulate relational databases.",
     "words": [
       "SELECT",
       "INSERT",
@@ -228,11 +249,13 @@
       "FILTER",
       "SORT",
       "AGGREGATE"
-    ]
+    ],
+    "trivia": "SQL was originally developed by IBM researchers in the 1970s."
   },
   {
     "id": 12,
     "title": "Big Data Processing",
+    "description": "Big data processing involves handling and analyzing large volumes of data that cannot be managed with traditional data processing tools.",
     "words": [
       "HADOOP",
       "HIVE",
@@ -249,11 +272,13 @@
       "MEMORY",
       "CORES",
       "DISTRIBUTE"
-    ]
+    ],
+    "trivia": "Hadoop was inspired by papers published by Google."
   },
   {
     "id": 13,
     "title": "Data Lakes",
+    "description": "Data lakes are centralized repositories that allow you to store all your structured and unstructured data at any scale.",
     "words": [
       "RAWZONE",
       "BRONZE",
@@ -270,11 +295,13 @@
       "OBJECTSTORE",
       "FOLDER",
       "PATH"
-    ]
+    ],
+    "trivia": "The term 'data lake' was coined by James Dixon in 2010."
   },
   {
     "id": 14,
     "title": "Analytics Engineering",
+    "description": "Analytics engineering involves building and maintaining the infrastructure and processes needed to support data analysis and reporting.",
     "words": [
       "DBT",
       "SEED",
@@ -291,11 +318,13 @@
       "DOCUMENT",
       "SEMANTIC",
       "METRIC"
-    ]
+    ],
+    "trivia": "Analytics engineering is a relatively new role that bridges the gap between data engineering and data analysis."
   },
   {
     "id": 15,
     "title": "APIs and Data Exchange",
+    "description": "APIs (Application Programming Interfaces) enable different software systems to communicate and exchange data.",
     "words": [
       "API",
       "REST",
@@ -312,11 +341,13 @@
       "RATELIMIT",
       "CLIENT",
       "SERVERLESS"
-    ]
+    ],
+    "trivia": "The first web API was introduced by Salesforce in 2000."
   },
   {
     "id": 16,
     "title": "Security and Access",
+    "description": "Security and access control are critical in data engineering to protect sensitive data and ensure that only authorized users can access it.",
     "words": [
       "ENCRYPTION",
       "IAM",
@@ -333,11 +364,13 @@
       "REDACTION",
       "PERMISSION",
       "PRINCIPAL"
-    ]
+    ],
+    "trivia": "The strongest encryption algorithms would take modern computers an impractically long time to brute force."
   },
   {
     "id": 17,
     "title": "Monitoring and Logging",
+    "description": "Monitoring and logging involve tracking and recording system activities to ensure proper operation and facilitate troubleshooting.",
     "words": [
       "LOGGING",
       "TRACE",
@@ -354,11 +387,13 @@
       "WATCHDOG",
       "STATUS",
       "SIGNAL"
-    ]
+    ],
+    "trivia": "The Mars Climate Orbiter was lost because of a units mismatch between systems."
   },
   {
     "id": 18,
     "title": "Testing Data Pipelines",
+    "description": "Testing data pipelines involves verifying that data flows correctly through each stage of the pipeline and that the output meets the expected quality standards.",
     "words": [
       "UNITTEST",
       "PYTEST",
@@ -375,11 +410,13 @@
       "BASELINE",
       "COMPARE",
       "RESULT"
-    ]
+    ],
+    "trivia": "NASA software projects often devote more effort to testing than coding."
   },
   {
     "id": 19,
     "title": "Batch Processing",
+    "description": "Batch processing involves executing a series of jobs in a queued manner without manual intervention.",
     "words": [
       "JOB",
       "SCHEDULER",
@@ -396,11 +433,13 @@
       "WATERMARK",
       "CUTOVER",
       "RUNBOOK"
-    ]
+    ],
+    "trivia": "Batch processing has been around since the earliest mainframe computers."
   },
   {
     "id": 20,
     "title": "Data Architecture",
+    "description": "Data architecture is the design and implementation of the overall structure and organization of an organization's data assets.",
     "words": [
       "MEDALLION",
       "HUB",
@@ -417,11 +456,13 @@
       "PLATFORM",
       "SERVICE",
       "CAPABILITY"
-    ]
+    ],
+    "trivia": "Some enterprise data architectures contain thousands of interconnected systems."
   },
   {
     "id": 21,
     "title": "Cloud Data Services",
+    "description": "Cloud data services provide managed solutions for storing, processing, and analyzing data in the cloud.",
     "words": [
       "ATHENA",
       "GLUE",
@@ -438,11 +479,13 @@
       "SPANNER",
       "DATAPROC",
       "DATAFORM"
-    ]
+    ],
+    "trivia": "Google processes billions of search queries every day."
   },
   {
     "id": 22,
     "title": "Performance Tuning",
+    "description": "Performance tuning involves optimizing database and application performance to improve response times and throughput.",
     "words": [
       "OPTIMIZE",
       "CACHE",
@@ -459,11 +502,13 @@
       "PARALLEL",
       "BOTTLENECK",
       "COST"
-    ]
+    ],
+    "trivia": "A well-designed index can turn a query from minutes into milliseconds."
   },
   {
     "id": 23,
     "title": "File Handling",
+    "description": "File handling involves reading, writing, and managing files in various formats for data processing and storage.",
     "words": [
       "FILENAME",
       "DIRECTORY",
@@ -480,11 +525,13 @@
       "ARCHIVING",
       "ROTATION",
       "LOCKFILE"
-    ]
+    ],
+    "trivia": "CSV was never formally standardised for much of its history."
   },
   {
     "id": 24,
     "title": "Business Intelligence",
+    "description": "Business intelligence involves the strategies and technologies used to gather, analyze, and present business data for decision-making.",
     "words": [
       "REPORT",
       "CHART",
@@ -501,11 +548,13 @@
       "REFRESH",
       "PUBLISH",
       "INSIGHT"
-    ]
+    ],
+    "trivia": "The first spreadsheet program appeared decades before modern BI tools."
   },
   {
     "id": 25,
     "title": "Data Careers",
+    "description": "Data careers encompass a wide range of roles and specializations in the field of data engineering, analytics, and science.",
     "words": [
       "ANALYST",
       "ENGINEER",
@@ -522,6 +571,7 @@
       "PROJECT",
       "SKILL",
       "LEARNING"
-    ]
+    ],
+    "trivia": "Demand for data engineers has grown dramatically over the last decade."
   }
 ]
